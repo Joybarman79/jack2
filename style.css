@@ -1,0 +1,104 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0%;
+}
+h1{
+    color: hotpink;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 30%;
+}
+.half-width img{
+    max-width: 98%;
+    padding: 5%;
+    max-height: 750px;
+}
+.top-banner{
+    background-image: url("header-bg.png");
+}
+section{
+    height: 1000px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(20deg, hotpink,orange);
+    padding: 2px 15px;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: 150;
+}
+.intro{
+    margin-left: 15%;
+ margin-top: 30%;
+
+}
+.bio{
+    background-image: url("biography-bg.png");
+}
+.bio img{
+    max-width: 98%;
+    padding: 2%;
+    }
+.bio2{
+ margin-left: 15%;
+ margin-top: 50%;
+}
+.align
+{
+    text-align: center;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .latest{
+      background-image: url("latest-work-bg.png");
+      background-repeat: repeat;
+      background-size: 95%;
+  }
+.align1
+{
+    text-align: center;
+    font-size: 25px;
+}
+.email{
+    text-align: center;
+    background-color: hotpink;
+    padding: 8px;
+    border: 1px solid white;
+    border-width: 15px;
+    color: white;
+    width: 800px;
+    height: 100px;
+    border-radius: 25px;
+  margin: auto;
+}
+.link-button1{
+    text-decoration: none;
+       border-radius: 50px;
+    color:whitesmoke;
+    font-weight: 150;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
